@@ -1,0 +1,140 @@
+body{
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    margin: 0px;
+}  
+nav ul {
+
+    margin: 0px;
+	padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav li{
+    list-style-type: none;
+    width: 200px;
+    text-align: center;
+   
+
+}
+
+
+nav a{
+color: rgb(3, 7, 10);
+display: inline-block;
+padding: 50px;
+font-size: 25px;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+.nav-bar{
+	background-color: #5E1916;
+	width: 100%;    
+	
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.cak:hover{
+	background-color: rgba(000, 112, 192, 0.15);
+}
+.pot{
+    border-top: 5px solid #000000;
+background-color: rgba(13, 43, 63, 0.15);
+}    
+
+.ligne1 {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+.poi {
+    background-color: rgba(13, 43, 63, 0.15);
+    flex-wrap: wrap;
+    margin: 50px;
+    height: 300px;
+    width: 200px;
+    border-collapse: collapse;
+   
+}
+.so {
+
+    padding: 5px;
+    background-color: maroon; 
+    justify-content: center;
+    margin-top: 50px;
+}
+.so:hover{
+    background-color: rgb(241, 21, 21);
+}
+
+img {
+
+    object-fit: cover;
+    object-position: ;
+    border-radius: 10%;
+} 
+.wp{
+    text-align: center;
+    color: rgb(32, 212, 56);
+    font-weight: bold;
+}
+.wr {
+    text-align: center;
+    color: rgba(253, 253, 253, 0.918);
+}
+.tu {
+   color: rgb(249, 253, 0);
+}
+p{
+    margin-top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px;
+     background-color: darkred;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+     color: white;
+    }
+.active
+{
+    background-color:green;
+}
+.c{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+ 
+}   
+.cmd {
+    background-color: green;
+    text-align: center;
+    color: rgba(247, 247, 247, 0.918);
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20% 20% 20% 20%;
+   
+}
+.cmd:hover {
+    background-color: lime;
+   
+}
+
+div button a  {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
